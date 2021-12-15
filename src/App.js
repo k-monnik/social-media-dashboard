@@ -1,10 +1,11 @@
 //import Header from "./components/Header";
+import Toggle from "./components/Toggle";
 
 
 function App() {
   return (
-    <div className="container mx-auto px-4">
-
+    <div>
+      <Toggle />
 
       {/* <Header /> */}
     </div>
