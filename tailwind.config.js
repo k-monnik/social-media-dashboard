@@ -19,6 +19,8 @@ module.exports = {
           red: '#c4032a', //youtube red
           yellow: '#fdc468', //ig yellow
           pink: '#df4996', //ig pink
+          'yellow-pink': ['#fdc468', '#df4996'],
+          //sunset: "linear-gradient(to right,  #fdc468 , #df4996);"
 
         },
 
@@ -40,11 +42,16 @@ module.exports = {
           blue: '#378fe6',
           green: '#3eda82',
           grey: '#aeb3cb',
+        },
+
+        borderColor: {
+          'yellow-pink': "linear-gradient(to right,  #fdc468 , #df4996);"
         }
       },
     },
     backgroundImage: {
-      'split-white-grey': "linear-gradient(to top,  white 80% , #f5f7ff 20%);"
+      'split-white-grey': "linear-gradient(to top,  white 80% , #f5f7ff 20%);",
+      //'yellow-pink': "linear-gradient(to right,  #fdc468 , #df4996);"
     },
     container: {
       center: true,
@@ -52,6 +59,7 @@ module.exports = {
     fontFamily: {
       Inter: ['Inter', 'sans-serif'],
     },
+
   },
   variants: {
     extend: {},

@@ -1,13 +1,23 @@
-// const Header = () => {
-//     return (
-//         <div>
-//             <header className="App-header">
+import Toggle from "./Toggle";
 
-//                 {/* <div>div class="divide-y-4 divide-blue divide-solid"></div> */}
-//             </header>
+const Header = () => {
+    return (
+        <header className="header">
+            <div className="border-4 border-red">
+                <h1 className="font-bold text-2xl">Social Media Dashboard</h1>
+                <div className="divide-y divide-solid divide-light-300 md:divide-none border-4 border-yellow-300">
+                    <p className="pt-0.5 pb-4 text-sm text-light-300 font-semibold ">
+                        Total Followers: 23,004
+                    </p>
+                    <div className="py-4 text-sm text-light-300 font-semibold flex justify-between md:justify-end md:gap-x-2 md:items-center md:align-top">
+                        Dark Mode
 
-//         </div>
-//     )
-// }
+                        <Toggle />
+                    </div>
+                </div>
+            </div>
+        </header>
+    )
+}
 
-// export default Header
+export default Header
