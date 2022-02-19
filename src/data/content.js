@@ -2,25 +2,25 @@ export const upperData = [
     {
         "name": "@nathanf",
         "quantity": "1987",
-        "type": "Followers",
+        "type": "F o l l o w e r s",
         "status": "12 Today"
     },
     {
         "name": "@nathanf",
-        "value": "1044",
-        "type": "Followers",
+        "quantity": "1044",
+        "type": "F o l l o w e r s",
         "status": "99 Today"
     },
     {
         "name": "@realnathanf",
-        "value": "11k",
-        "type": "Followers",
+        "quantity": "11k",
+        "type": "F o l l o w e r s",
         "status": "1099 Today"
     },
     {
         "name": "Nathan F.",
-        "value": "8239",
-        "type": "Subscribers",
+        "quantity": "8239",
+        "type": "S u b s c r i b e r s",
         "status": "144 Today"
     },
 ];
