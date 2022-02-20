@@ -24,3 +24,46 @@ export const upperData = [
         "status": "144 Today"
     },
 ];
+
+export const lowerData = [
+    {
+        "type": "Page Views",
+        "quantity": "87",
+        "status": "3%"
+    },
+    {
+        "type": "Likes",
+        "quantity": "52",
+        "status": "2%"
+    },
+    {
+        "type": "Likes",
+        "quantity": "5462",
+        "status": "2257%"
+    },
+    {
+        "type": "Profile Views",
+        "quantity": "52k",
+        "status": "1375%"
+    },
+    {
+        "type": "Retweets",
+        "quantity": "117",
+        "status": "303%"
+    },
+    {
+        "type": "Likes",
+        "quantity": "507",
+        "status": "553%"
+    },
+    {
+        "type": "Likes",
+        "quantity": "107",
+        "status": "19%"
+    },
+    {
+        "type": "Total Views",
+        "quantity": "1407",
+        "status": "12%"
+    },
+];

@@ -1,11 +1,11 @@
 import React from 'react';
 
-const LowerCard = () => {
+const LowerCard = ({ data }) => {
     return <>
         <div className="py-6 px-8 mx-8 border-solid border-1 rounded-md bg-light-200 md:justify-items-center text-light-300">
             <div className="flex justify-between">
                 <div className="font-bold text-sm">
-                    Page Views
+                    {data.type}
                 </div>
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
                     <path fill="#178FF5"
@@ -14,13 +14,13 @@ const LowerCard = () => {
             </div>
             <div className="pt-6 flex items-end justify-between">
                 <div className="font-bold text-3xl text-light-400">
-                    87
+                    {data.quantity}
                 </div>
                 <div className="flex items-center gap-x-1 text-lime font-bold text-xs">
                     <svg xmlns="http://www.w3.org/2000/svg" width="8" height="4">
                         <path fill="#1EB589" fill-rule="evenodd" d="M0 4l4-4 4 4z" />
                     </svg>
-                    3%
+                    {data.status}
                 </div>
             </div>
 

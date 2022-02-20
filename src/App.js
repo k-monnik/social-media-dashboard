@@ -1,7 +1,7 @@
 //import React, { useState } from "react";
 import Header from "./components/Header";
 import UpperGrid from "./components/UpperGrid";
-// import LowerGrid from "./components/LowerGrid";
+import LowerGrid from "./components/LowerGrid";
 // import Test from "./components/Test";
 
 
@@ -21,7 +21,7 @@ function App() {
         {/* <Test /> */}
 
         <UpperGrid />
-        {/* <LowerGrid /> */}
+        <LowerGrid />
       </div>
 
 

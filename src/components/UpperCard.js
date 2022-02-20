@@ -12,7 +12,7 @@ export const UpperCard = ({ data }) => {
             <li className="flex text-6xl font-bold text-light-400 justify-center">
                 {data.quantity}
             </li>
-            <li className="flex justify-center uppercase tracking-widest font-thin text-sm">
+            <li className="flex justify-center uppercase tracking-widest font-thin text-xs">
                 {data.type}
             </li>
             <li className="flex gap-x-1 justify-center items-center text-lime font-bold text-xs">
