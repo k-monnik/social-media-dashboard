@@ -1,5 +1,7 @@
 import LowerCard from "./LowerCard";
 import { lowerData } from "../data/content";
+// import fb from "../../src/images/icon-facebook.svg";
+
 
 const LowerGrid = () => {
 
@@ -12,6 +14,10 @@ const LowerGrid = () => {
             <div className="text-light-300 font-bold text-2xl pt-10 pb-6">
                 Overview - Today
             </div>
+
+
+
+
 
             {/* BOTTOM GRID  */}
 
