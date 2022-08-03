@@ -2,7 +2,7 @@ import React from 'react';
 
 const LowerCard = ({ data }) => {
     return <>
-        <div className="py-6 px-8 mx-8 border-solid border-1 rounded-md bg-light-200 md:justify-items-center text-light-300">
+        <div className="py-6 px-8 border-solid border-1 rounded-md bg-light-200 md:justify-items-center text-light-300 h-32 w-80 md:w-64">
             <div className="flex justify-between">
                 <div className="font-bold text-sm">
                     {data.type}

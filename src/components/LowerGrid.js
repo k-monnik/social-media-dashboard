@@ -6,7 +6,7 @@ const LowerGrid = () => {
 
 
     return (
-        <div className="container mx-auto md:px-24">
+        <div className="mx-auto md:px-24">
             {/* OVERVIEW SECTION */}
 
             <div className="text-light-300 font-bold text-2xl pt-10 pb-6">
@@ -15,7 +15,7 @@ const LowerGrid = () => {
 
             {/* BOTTOM GRID  */}
 
-            <div className="grid gap-10 grid-cols-1 md:grid-cols-4 md:grid-rows-2">
+            <div className="grid gap-10 md:gap-4 grid-cols-1 md:grid-cols-4 md:grid-rows-2 md:pb-12">
                 {lowerData.map((data, index) => (
                     <LowerCard key={index} data={data} />
                 ))}
