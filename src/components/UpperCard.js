@@ -20,9 +20,10 @@ export const UpperCard = ({ data }) => {
                 {data.type}
             </li>
             <li className="flex gap-x-1 justify-center items-center text-lime font-bold text-xs">
-                <svg xmlns="http://www.w3.org/2000/svg" width="8" height="4">
+                {/* <svg xmlns="http://www.w3.org/2000/svg" width="8" height="4">
                     <path fill="#1EB589" fill-rule="evenodd" d="M0 4l4-4 4 4z" />
-                </svg>
+                </svg> */}
+                {data.arrow}
                 {data.status}
             </li>
         </ul>
