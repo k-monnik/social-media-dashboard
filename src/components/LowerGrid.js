@@ -6,10 +6,10 @@ const LowerGrid = () => {
 
 
     return (
-        <div className="container mx-auto">
+        <div className="container mx-auto md:px-24">
             {/* OVERVIEW SECTION */}
 
-            <div className="text-light-300 font-bold text-lg">
+            <div className="text-light-300 font-bold text-2xl pt-10 pb-6">
                 Overview - Today
             </div>
 
