@@ -13,7 +13,7 @@ function App() {
 
 
   return (
-    <div className="mx-auto w-full"
+    <div className="mx-auto w-full dark:bg-dark-400"
     >
       <Header />
       <div>
