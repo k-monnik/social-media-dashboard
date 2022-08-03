@@ -13,7 +13,7 @@ function App() {
 
 
   return (
-    <div className="container mx-auto px-8 box-border w-[375px] md:w-[1440px] border-4 border-lime"
+    <div className="mx-auto w-full"
     >
       <Header />
       <div>
