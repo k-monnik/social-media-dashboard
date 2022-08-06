@@ -12,7 +12,7 @@ const Header = () => {
                     <div className="divide-y divide-solid divide-light-300 md:divide-none"></div>
                 </div>
 
-                {/* <div className="text-sm text-light-300 font-semibold flex justify-between  md:justify-end md:gap-x-2 md:pr-24">
+                {/* <div className="text-sm text-light-300 dark:text-white font-semibold flex justify-between  md:justify-end md:gap-x-2 md:pr-24">
                     Dark Mode
 
                     <Toggle />
