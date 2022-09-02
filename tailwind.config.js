@@ -43,12 +43,19 @@ module.exports = {
           blue: '#378fe6',
           green: '#3eda82',
           grey: '#aeb3cb',
+          navy: '#252B42',
         },
 
         borderColor: {
           'yellow-pink': "linear-gradient(to right,  #fdc468 , #df4996);"
         }
       },
+      spacing: {
+        '4.5': '1.125rem',
+      },
+      inset: {
+        '0.75': '0.1875rem',
+      }
     },
 
     container: {
@@ -62,7 +69,7 @@ module.exports = {
   variants: {
     backgroundColor: ['checked'],
     extend: {
-      gradientColorStops: ['checked'],
+
     },
   },
   plugins: [],
