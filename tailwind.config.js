@@ -12,6 +12,7 @@ module.exports = {
         white: '#ffffff',
         lime: '#1db489',
         red: '#dc414c',
+        medGrey: '#848BAB',
 
         social: {
           blue: '#198ff5', //fb blue
@@ -62,6 +63,7 @@ module.exports = {
 
   },
   variants: {
+    backgroundColor: ['checked'],
     extend: {},
   },
   plugins: [],

@@ -1,4 +1,4 @@
-// import Toggle from "./Toggle";
+import Toggle from "./Toggle";
 
 const Header = () => {
     return (
@@ -10,6 +10,10 @@ const Header = () => {
                         Total Followers: 23,004
                     </p>
                     <div className="divide-y divide-solid divide-light-300 md:divide-none"></div>
+                </div>
+
+                <div>
+                    <Toggle />
                 </div>
 
                 {/* <div className="text-sm text-light-300 dark:text-white font-semibold flex justify-between  md:justify-end md:gap-x-2 md:pr-24">
