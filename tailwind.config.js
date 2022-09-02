@@ -50,10 +50,7 @@ module.exports = {
         }
       },
     },
-    backgroundImage: {
-      'split-white-grey': "linear-gradient(to top,  white 80% , #f5f7ff 20%);",
-      //'yellow-pink': "linear-gradient(to right,  #fdc468 , #df4996);"
-    },
+
     container: {
       center: true,
     },
@@ -64,7 +61,9 @@ module.exports = {
   },
   variants: {
     backgroundColor: ['checked'],
-    extend: {},
+    extend: {
+      gradientColorStops: ['checked'],
+    },
   },
   plugins: [],
 }
