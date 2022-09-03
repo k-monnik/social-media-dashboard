@@ -13,6 +13,7 @@ module.exports = {
         lime: '#1db489',
         red: '#dc414c',
         medGrey: '#848BAB',
+        solidGrey: '#63687D',
 
         social: {
           blue: '#198ff5', //fb blue

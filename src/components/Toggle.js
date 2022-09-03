@@ -10,10 +10,10 @@ function Toggle() {
 
 
     return (
-        <div className="lg:-mt-16">
-            <div className="flex justify-end">
-                <label htmlFor="toggle-switch" className="text-sm font-bold text-medGrey dark:text-white pr-12">Dark Mode</label>
-                <div className="mr-24">
+        <div className="md:-mt-14 ml-4">
+            <div className="flex md:justify-end">
+                <label htmlFor="toggle-switch" className="text-sm font-bold text-medGrey dark:text-white pr-4">Dark Mode</label>
+                <div className="md:mr-24">
                     <input className="cursor-pointer h-6 w-12 rounded-full appearance-none bg-toggle-green checked:bg-toggle-grey transition duration-200 relative" type="checkbox" id="toggle-switch" />
                 </div>
             </div>
