@@ -10,7 +10,7 @@ function Toggle() {
 
 
     return (
-        <div>
+        <div className="lg:-mt-16">
             <div className="flex justify-end">
                 <label htmlFor="toggle-switch" className="text-sm font-bold text-medGrey dark:text-white pr-12">Dark Mode</label>
                 <div className="mr-24">
