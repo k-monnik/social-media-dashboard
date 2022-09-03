@@ -53,6 +53,7 @@ module.exports = {
       },
       spacing: {
         '4.5': '1.125rem',
+        '76': '19rem',
       },
       inset: {
         '0.75': '0.1875rem',

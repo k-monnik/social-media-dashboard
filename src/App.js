@@ -23,6 +23,10 @@ function App() {
         <UpperGrid />
         <LowerGrid />
       </div>
+      <footer>
+        <p class="text-xs font-thin text-medGrey dark:text-dark-100 pb-4 text-center"><a href="https://www.monnik.dev/">© 2022 Kristen Monnik</a>
+        </p>
+      </footer>
 
 
     </div>
