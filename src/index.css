@@ -9,9 +9,9 @@
 
 #toggle-switch::after {
     content: '';
-    @apply h-4.5 w-4.5 rounded-full bg-light-100 absolute left-0.75 top-0.75 transition duration-200;
+    @apply h-4.5 w-4.5 rounded-full bg-toggle-navy absolute left-0.75 top-0.75 transition duration-200;
 }
 
 #toggle-switch:checked::after {
-    @apply transform translate-x-6 bg-toggle-navy;
+    @apply transform translate-x-6 bg-light-100;
 }
