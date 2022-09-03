@@ -12,7 +12,7 @@ export const upperData = [
             <path fill="#1EB589" fill-rule="evenodd" d="M0 4l4-4 4 4z" />
         </svg>,
         "color": "flex gap-x-1 justify-center items-center text-lime font-bold text-xs",
-        "border": "py-4 px-14 border-solid border-t-4 border-social-blue rounded bg-light-200 dark:bg-dark-200 space-y-4 text-light-300 md:w-64 md:h-56"
+        "border": "py-4 px-14 border-solid border-t-4 border-social-blue rounded bg-light-200 cursor-pointer hover:bg-light-500 hover:dark:bg-dark-500 dark:bg-dark-200 space-y-4 text-light-300 md:w-64 md:h-56"
     },
     {
         "name": "@nathanf",

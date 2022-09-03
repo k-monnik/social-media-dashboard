@@ -31,6 +31,7 @@ module.exports = {
           200: '#f0f2fa', //still barely there, super pale blue - card bg
           300: '#636363', //medium grey - light theme text color
           400: '#1e202a', //deep navy - light theme text color
+          500: '#E1E4F0', // light theme card bg hover
         },
 
         dark: {
@@ -38,6 +39,7 @@ module.exports = {
           200: '#252a41', //medium navy - dark theme card bg
           300: '#1f212e', //deep navy - dark theme top bg
           400: '#1e202a', //dark navy - dark theme bg
+          500: '#333A55', //dark theme card bg hover
         },
 
         toggle: {
