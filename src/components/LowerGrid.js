@@ -8,10 +8,10 @@ const LowerGrid = () => {
 
 
     return (
-        <div className="mx-auto">
+        <div className="mx-auto box-border">
             {/* OVERVIEW SECTION */}
 
-            <div className="text-light-300 font-bold text-2xl mx-8 md:mx-0 md:px-12 pt-10 pb-6">
+            <div className="text-light-300 font-bold text-2xl mx-8 md:mx-32 md:px-12 pt-10 pb-6">
                 Overview - Today
             </div>
 
@@ -21,7 +21,7 @@ const LowerGrid = () => {
 
             {/* BOTTOM GRID  */}
 
-            <div className="grid gap-4 grid-cols-1 mx-8 md:mx-0 md:px-14 md:grid-cols-4 md:grid-rows-2 pb-8 md:pb-12 md:max-w-6xl">
+            <div className="grid gap-4 grid-cols-1 mx-8 md:mx-32 md:px-14 md:grid-cols-4 md:grid-rows-2 pb-8 md:pb-12 md:max-w-6xl">
                 {lowerData.map((data, index) => (
                     <LowerCard key={index} data={data} />
                 ))}
