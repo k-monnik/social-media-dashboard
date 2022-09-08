@@ -21,7 +21,7 @@ const LowerGrid = () => {
 
             {/* BOTTOM GRID  */}
 
-            <div className="grid gap-4 grid-cols-1 mx-8 md:mx-32 md:px-14 md:grid-cols-4 md:grid-rows-2 pb-8 md:pb-12 md:max-w-6xl">
+            <div className="grid gap-4 md:gap-x-4 md:gap-y-2 grid-cols-1 mx-8 md:mx-32 md:px-14 md:grid-cols-4 md:grid-rows-2 pb-8 md:pb-12 md:max-w-6xl">
                 {lowerData.map((data, index) => (
                     <LowerCard key={index} data={data} />
                 ))}
