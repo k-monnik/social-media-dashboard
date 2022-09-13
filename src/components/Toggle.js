@@ -8,7 +8,7 @@ function Toggle() {
 
     return (
         <>
-            <div className="md:-mt-14 mx-8  pt-3 md:pt-0">
+            <div className="md:-mt-14 mx-8  pt-3 md:pt-0 cursor-pointer">
                 <div className="flex justify-between md:justify-end">
                     <label htmlFor="toggle-switch" className="text-sm font-bold text-medGrey dark:text-white pr-4">Dark Mode</label>
                     <div className="md:mr-24">

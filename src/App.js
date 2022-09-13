@@ -6,7 +6,7 @@ import LowerGrid from "./components/LowerGrid";
 function App() {
 
   return (
-    <div className="mx-auto w-full h-screen dark:bg-dark-400"
+    <div className="mx-auto w-full md:h-screen dark:bg-dark-400"
     >
       <Header />
       <div>
