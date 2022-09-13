@@ -18,7 +18,7 @@ This is a solution to the [Social Media Dashboard challenge on Frontend Mentor](
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Useful resources](#useful-resources)
+  - [Future iterations](#future-iterations)
 - [Author](#author)
 
 
