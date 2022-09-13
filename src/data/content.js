@@ -12,7 +12,7 @@ export const upperData = [
             <path fill="#1EB589" fill-rule="evenodd" d="M0 4l4-4 4 4z" />
         </svg>,
         "color": "flex gap-x-1 justify-center items-center text-lime font-bold text-xs",
-        "border": "py-4 px-14 border-solid border-t-4 border-social-blue rounded bg-light-200 cursor-pointer hover:bg-light-500 hover:dark:bg-dark-500 dark:bg-dark-200 space-y-4 text-light-300 md:w-64 md:h-56"
+        "border": "py-4 px-14 border-solid border-t-4 border-social-blue rounded bg-light-200 cursor-pointer hover:bg-light-500 dark:hover:bg-dark-500 dark:bg-dark-200 space-y-4 text-light-300 md:w-64 md:h-56"
     },
     {
         "name": "@nathanf",
@@ -24,7 +24,7 @@ export const upperData = [
             <path fill="#1EB589" fill-rule="evenodd" d="M0 4l4-4 4 4z" />
         </svg>,
         "color": "flex gap-x-1 justify-center items-center text-lime font-bold text-xs",
-        "border": "py-4 px-14 border-solid border-t-4 border-social-bluebird rounded bg-light-200 dark:bg-dark-200 cursor-pointer hover:bg-light-500 hover:dark:bg-dark-500 space-y-4 text-light-300 md:w-64 md:h-56"
+        "border": "py-4 px-14 border-solid border-t-4 border-social-bluebird rounded bg-light-200 cursor-pointer hover:bg-light-500 dark:hover:bg-dark-500 dark:bg-dark-200 cursor-pointer hover:bg-light-500 hover:dark:bg-dark-500 space-y-4 text-light-300 md:w-64 md:h-56"
     },
     {
         "name": "@realnathanf",
@@ -36,7 +36,7 @@ export const upperData = [
             <path fill="#1EB589" fill-rule="evenodd" d="M0 4l4-4 4 4z" />
         </svg>,
         "color": "flex gap-x-1 justify-center items-center text-lime font-bold text-xs",
-        "border": "py-4 px-14 border-solid border-t-4 border-social-yellow rounded bg-light-200 dark:bg-dark-200 space-y-4 text-light-300 md:w-64 md:h-56"
+        "border": "py-4 px-14 border-solid border-t-4 border-social-yellow rounded bg-light-200 dark:bg-dark-200 cursor-pointer hover:bg-light-500 dark:hover:bg-dark-500 space-y-4 text-light-300 md:w-64 md:h-56"
     },
     {
         "name": "Nathan F.",
@@ -46,7 +46,7 @@ export const upperData = [
         "icon": <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"><path fill="#C4032B" d="M10 0C4.478 0 0 4.478 0 10c0 5.523 4.478 10 10 10 5.523 0 10-4.477 10-10 0-5.522-4.477-10-10-10zm3.7 14.077c-1.75.12-5.652.12-7.402 0-1.896-.13-2.117-1.059-2.131-4.077.014-3.024.237-3.947 2.131-4.077 1.75-.12 5.652-.12 7.403 0 1.897.13 2.117 1.059 2.132 4.077-.015 3.024-.237 3.947-2.132 4.077zM8.334 8.048l4.098 1.949-4.098 1.955V8.048z" /></svg>,
         "arrow": <svg xmlns="http://www.w3.org/2000/svg" width="8" height="4"><path fill="#DC414C" fill-rule="evenodd" d="M0 0l4 4 4-4z" /></svg>,
         "color": "flex gap-x-1 justify-center items-center text-red font-bold text-xs",
-        "border": "py-4 px-14 border-solid border-t-4 border-social-red rounded bg-light-200 dark:bg-dark-200 space-y-4 text-light-300 md:w-64 md:h-56"
+        "border": "py-4 px-14 border-solid border-t-4 border-social-red rounded bg-light-200 dark:bg-dark-200 cursor-pointer hover:bg-light-500 dark:hover:bg-dark-500 space-y-4 text-light-300 md:w-64 md:h-56"
     },
 ];
 
