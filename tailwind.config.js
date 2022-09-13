@@ -1,5 +1,3 @@
-//const colors = require("tailwindcss/colors")
-
 
 module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
@@ -22,7 +20,7 @@ module.exports = {
           yellow: '#fdc468', //ig yellow
           pink: '#df4996', //ig pink
           'yellow-pink': ['#fdc468', '#df4996'],
-          //sunset: "linear-gradient(to right,  #fdc468 , #df4996);"
+
 
         },
 

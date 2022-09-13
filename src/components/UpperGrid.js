@@ -1,4 +1,4 @@
-// import Test from "./Test";
+
 import { upperData } from '../data/content';
 import UpperCard from "./UpperCard";
 
