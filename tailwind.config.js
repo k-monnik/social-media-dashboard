@@ -10,7 +10,7 @@ module.exports = {
         transparent: 'transparent',
         current: 'currentColor',
         white: '#ffffff',
-        lime: '#1db489',
+        lime: '#1EB589',
         red: '#dc414c',
         medGrey: '#848BAB',
         solidGrey: '#63687D',
@@ -71,7 +71,7 @@ module.exports = {
 
   },
   variants: {
-    backgroundColor: ['checked'],
+    backgroundColor: ['checked', 'hover', 'dark'],
     extend: {
 
     },
