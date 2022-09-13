@@ -11,16 +11,10 @@ const Header = () => {
                     </p>
 
                 </div>
-                {/* <div className="w-80 border-b border-solid border-dark-300 md:border-none"></div> */}
                 <div>
                     <Toggle />
                 </div>
 
-                {/* <div className="text-sm text-light-300 dark:text-white font-semibold flex justify-between  md:justify-end md:gap-x-2 md:pr-24">
-                    Dark Mode
-
-                    <Toggle />
-                </div> */}
             </div>
         </div>
     )

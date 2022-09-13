@@ -35,10 +35,10 @@ module.exports = {
         },
 
         dark: {
-          100: '#8b97c6', //periwinkle - dark theme text color
-          200: '#252a41', //medium navy - dark theme card bg
-          300: '#1f212e', //deep navy - dark theme top bg
-          400: '#1e202a', //dark navy - dark theme bg
+          100: '#8C98C6', //periwinkle - dark theme text color
+          200: '#252B42', //medium navy - dark theme card bg
+          300: '#20222F', //deep navy - dark theme top bg
+          400: '#1D1F29', //dark navy - dark theme bg
           500: '#333A55', //dark theme card bg hover
         },
 
