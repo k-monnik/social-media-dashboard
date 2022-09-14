@@ -57,7 +57,7 @@ This is a solution to the [Social Media Dashboard challenge on Frontend Mentor](
 
 ### What I learned
 
-With this project, I had fun learning how to implement the dark/light theme switcher using JavaScript and styling the toggle switch using Tailwind. The Tailwind 'dark' variant made it simple to style the various theme color changes throughout the project.
+With this project, I had fun learning how to implement the dark/light theme switcher using JavaScript and styling the toggle switch using Tailwind. The Tailwind `dark` variant made it simple to style the various theme color changes throughout the project.
 
 
 ### Future iterations
