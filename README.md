@@ -3,9 +3,9 @@
 This is a social media dashboard landing page with a dark/light theme switcher.
 
 Users should be able to:
-    - view the optimal layout for the site depending on their device's screen size
-    - see hover states for all interactive elements on the page (cards and toggle switch)
-    - toggle color theme to their preference
+- view the optimal layout for the site depending on their device's screen size
+- see hover states for all interactive elements on the page (cards and toggle switch)
+- toggle color theme to their preference
 
 This is a solution to the [Social Media Dashboard challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H).
 
